@@ -32,7 +32,7 @@ namespace I_Feel_Great
             {
                 Console.WriteLine("No probability because conditions were not met because females reply in equal numbers and males don't say yes");
             }
-            //Condition can be met because male users reply with yes
+            //Condition can be met because male users reply with no
             else if (totalofno > totalofyes)
             {
                 y.maleprobability(totalofno, totalusers);
